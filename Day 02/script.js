@@ -1,1 +1,1 @@
-alert("Hello to traning")
+alert("Say hello to traning!");
