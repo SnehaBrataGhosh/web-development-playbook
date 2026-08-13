@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,63 +8,76 @@
     <title>Day-14 CSS selectors</title>
     <style>
         /* Element Selector */
-        div{
+        div {
             color: blueviolet;
             background-color: blanchedalmond;
         }
+
         /* Class Selector */
-        .Hey{
+        .Hey {
             color: #f7f5f5;
             background-color: blue;
         }
+
         /* Id Selector */
-        #Hey{
+        #Hey {
             color: aqua;
             background-color: #6251f8;
         }
+
         /* Child Selector */
-        div > p{
+        div>p {
             color: bl;
             background-color: bl;
 
         }
+
         /* Descendant Selector */
-        div nav{
+        div nav {
             color: bl;
-            background-color: black;            
+            background-color: black;
         }
+
         /* Universal Selector */
-        *{
+        * {
             margin: 0;
             padding: 6;
         }
+
         /* Pseudo Selectors */
-        a:visited{
+        a:visited {
             color: chocolate;
 
         }
-        a:link{
+
+        a:link {
             color: crimson;
         }
-        a:hover{
+
+        a:hover {
             color: aqua;
         }
-        a:active{
+
+        a:active {
             color: rgb(18, 19, 19);
         }
+
         /* p:first-child{
             color: green;
         } */
     </style>
 </head>
+
 <body>
     <a href="https://store.epicgames.com/en-US">Epic Games</a>
     <a href="https://www.gog.com/en/">Gog</a>
     <div>
         Hey I am div I have no class and my css is coming from Element selector
-        <p>Hey I am paragraph tag and I got my css from my prarent <u>div</u> because I am their direct child and this happend because of child selector </p>
+        <p>Hey I am paragraph tag and I got my css from my prarent <u>div</u> because I am their direct child and this
+            happend because of child selector </p>
         <article>
-            <nav>Hey I am nav tag and I got my css from my descendant <u>div</u> and want black backgroung, because I am their descendant and this happend because of descendant selector(NOTE My parent is article tag)</nav>
+            <nav>Hey I am nav tag and I got my css from my descendant <u>div</u> and want black backgroung, because I am
+                their descendant and this happend because of descendant selector(NOTE My parent is article tag)</nav>
         </article>
     </div>
     <div class="Hey">
@@ -77,4 +91,5 @@
         <h3>Hey I am 2nd child</h3>
     </aside>
 </body>
+
 </html>
