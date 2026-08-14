@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.Box{
+    background-color: rgb(152, 110, 110);
+}
+
+.Box1 {
+    color: aqua;
+    padding: 10px;
+    margin: 5px;
+    border: 20px solid salmon;  
+    height: 200px;
+    /* box-sizing: border-box; */
+
+}
+
+.Box2{
+    color: aqua;
+    padding: 10px;
+    margin: 5px;
+    border: 20px solid rgb(19, 61, 214);  
+    height: 200px;
+    /* box-sizing: border-box; */
+}
