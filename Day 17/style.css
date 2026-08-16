@@ -1,10 +1,9 @@
- 
- p {
-     background-color: blue;
-     color: white;
- }
+p {
+    background-color: blue;
+    color: white;
+}
 
- div p:first-child {
-     background-color: yellow;
-     color: red;
- }
+div p:first-child {
+    background-color: yellow;
+    color: red;
+}
