@@ -11,6 +11,8 @@
     margin: 34px;
 }
 
+
+/* Hide the first box from the page. */
 .box1 {
     /* display: inline-block;
     width: 34px;
