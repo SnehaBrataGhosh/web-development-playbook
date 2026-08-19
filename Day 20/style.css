@@ -1,0 +1,21 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.box {
+    border: 2px solid blueviolet;
+    display: inline-block;
+    width: 344px;
+    padding: 45px;
+    margin: 34px;
+}
+
+.box1 {
+    /* display: inline-block;
+    width: 34px;
+    padding: 45px;
+    margin: 34px; */
+    display: none;
+    /* visibility: hidden; */
+}
