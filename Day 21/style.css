@@ -1,0 +1,10 @@
+.box {
+    border: 2px solid red;
+    padding: 24px;
+    box-shadow: 5px 5px 15px 5px #888888;
+}
+
+.txt {
+    text-shadow: 2px 2px 4px #077e345c;
+    outline: 2px solid blue;
+}
