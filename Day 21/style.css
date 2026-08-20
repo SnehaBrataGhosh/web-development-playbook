@@ -6,5 +6,5 @@
 
 .txt {
     text-shadow: 2px 2px 4px #077e345c;
-    outline: 2px solid blue;
+    outline: 2px solid rgba(0, 0, 255, 0.856);
 }
