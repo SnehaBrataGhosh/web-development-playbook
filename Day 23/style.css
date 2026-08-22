@@ -1,0 +1,19 @@
+.Box {
+    /* width: 30vw;
+    height: 40vh;
+    border: 2px solid red; */
+    /* overflow: scroll; */
+    /* overflow: auto; */
+    /* white-space: nowrap; */
+    /* text-overflow: ellipsis ; */
+
+    width: 30vw;
+    height: 30vh;
+    border: 2px solid black;
+    /* overflow: auto;
+    overflow-x: hidden;
+    overflow-y: scroll; */
+    overflow: hidden auto ; /*hidden -->x    auto ---> Y */
+    /* white-space: nowrap;
+    text-overflow: ellipsis; */
+}
