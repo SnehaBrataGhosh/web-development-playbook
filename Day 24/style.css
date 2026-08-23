@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.box{
+    height: 133px;
+    width: 80vw;
+    padding: 3px;
+    margin: 3px;
+    border: 2px solid green;
+}
+
+.hey{
+    background-color: aqua;
+    /* position: sticky;
+    height: 1 11px;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+    position: absolute;
+    /*top: 0; */
+}
+
+.how{
+    background-color: aquamarine;
+    /* position: relative;  */
+    /*top: 30px;
+    left: 90px; */
+}
+.are{
+    background-color: olive;
+    /* position: fixed;
+    bottom: 0;
+    left: 10vw; */
+}
+.u{
+    background-color: blue;
+    /* position: sticky;
+    height: 1 11px;
+    top: 0px;
+    width: 100%;
+    margin: 0;
+    padding: 0; */
+}
+.doing{
+    background-color: blueviolet;
+}
+
+.parent{
+    margin: 33px;
+    padding: 20px;
+    border: 3px solid purple;
+    position: sticky;
+}
+
+/* html{
+    position: relative;
+    top: 1000000px;
+} */
