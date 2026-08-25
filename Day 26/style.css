@@ -1,0 +1,40 @@
+body {
+    background-color: burlywood;
+}
+
+@media only screen and (min-width: 300px) {
+    body {
+        color: navy;
+        background-color: olive;
+    }
+
+    .boxs {
+        flex-direction: column;
+    }
+
+}
+
+@media screen and (orientation: landscape) {
+
+    body {
+        color: rgb(224, 224, 224);
+        background-color: rgb(77, 77, 15);
+    }
+
+    .boxs {
+        flex-direction: column;
+    }
+
+}
+
+.boxs {
+    display: flex;
+}
+
+.box {
+    width: 344px;
+    height: 344px;
+    background-color: slategrey;
+    padding: 4px;
+    margin: 4px;
+}
