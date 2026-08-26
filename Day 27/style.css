@@ -1,0 +1,64 @@
+body {
+    background-color: slategrey;
+}
+
+.card {
+    background-color: white;
+    width: 194px;
+    height: 350px;
+    border-radius: 9px;
+}
+
+.imgg {
+    padding: 4px;
+}
+
+.imgg img {
+    border-radius: 9px;
+}
+
+.con {
+    padding: 9px;
+    color: olivedrab;
+}
+
+.con p {
+    font-size:   9px;
+    font-family: "Shadows Into Light", cursive;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.cap span {
+    border: 4px solid gray;
+    border-radius: 9px;
+    padding: 3px;
+
+}
+
+.cap {
+    padding: 0 30px;
+
+}
+
+.but span {
+    margin-top: auto;
+    border: 3px solid grey;
+    border-radius: 3px;
+    text-align: center;
+    background-color: aquamarine;
+    color: blue;
+    position: relative;
+    bottom: 15px;
+}
+
+.but {
+    padding: 0 50px;
+    align-content: center;
+}
+
+.con h1 {
+    font-family: "Rubik Gemstones", system-ui;
+    font-weight: 400;
+    font-style: normal;
+}
