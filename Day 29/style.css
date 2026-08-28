@@ -1,0 +1,39 @@
+/* .box:first-child{
+    background-color: gray;
+}  */
+.box::first-line{
+    color: aqua;
+}
+
+.boxs *{
+    border: 2px solid black;
+}
+
+[data-color="primary"]{
+  margin-top: 20px;
+  padding: 60px;
+}
+
+/* .box:nth-child(){
+    background-color: gray;
+} */
+
+/* .box:nth-last-child(3){
+    background-color: gray;
+} */
+
+.boxs::before{
+    content: "Hey i am before content";
+}
+
+.boxs::after{
+    content: "Hey i am after content";
+}
+
+::selection{
+    color: aquamarine;
+    background-color: black;
+}
+.box::first-letter{
+    color: plum;
+}
