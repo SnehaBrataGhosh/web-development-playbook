@@ -1,0 +1,39 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+:root {
+    --color1: blueviolet;
+    --color2: aqua;
+    --color3: darkturquoise;
+}
+
+body {
+    background-color: var(--color3);
+}
+
+ul li {
+    
+    list-style: none;
+    display: inline;
+    padding: 9px;
+    font-family: "Nabla", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+        "EDPT" 100,
+        "EHLT" 12;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: var(--color2);
+}
+
+nav {
+    background-color:var(--color1);
+    padding: 12px 0;
+}
