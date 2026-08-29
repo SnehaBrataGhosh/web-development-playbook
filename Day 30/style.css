@@ -14,7 +14,6 @@ body {
 }
 
 ul li {
-    
     list-style: none;
     display: inline;
     padding: 9px;
@@ -25,15 +24,14 @@ ul li {
     font-variation-settings:
         "EDPT" 100,
         "EHLT" 12;
-    
 }
 
-ul li a{
+ul li a {
     text-decoration: none;
     color: var(--color2);
 }
 
 nav {
-    background-color:var(--color1);
+    background-color: var(--color1);
     padding: 12px 0;
 }
