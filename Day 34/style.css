@@ -1,0 +1,27 @@
+.box{
+    height: 50px;
+    width: 50px;
+    /* padding: 0; */
+    background-color: aqua; 
+    border: 2px solid brown;
+    /* transform: rotate(.15turn); */
+    /* transform: rotateX(99deg); */
+    /* transform: rotateY(60deg); */
+    /* transform: rotateZ(81deg); */
+    /* transform: scale(2); */
+    /* transform: scaleX(5); */
+    /* transform: scaleY(5); */
+    /* transform: scaleZ(5); */
+    /* transform: skew(70deg); */
+    /* transform: translate(40%); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.con{
+    height: 80vh;
+    width: 100vm;
+    /* background-color: aqua;  */
+    border: 2px solid purple;    
+}
